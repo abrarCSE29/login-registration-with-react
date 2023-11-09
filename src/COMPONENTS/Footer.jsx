@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div className="container footer fontstyle-bold padding-5">
+    <div className="footer fontstyle-bold padding-5">
       <div>
         <p className="color-orange  margin-25">Developed and maintained by</p>
         <p>Department of Computer Science and Engineering<br/>
