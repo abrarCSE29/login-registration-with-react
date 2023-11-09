@@ -25,3 +25,21 @@
 {
     padding: 1% 8% 1% 8%;
 }
+
+.top-nav-bar
+{
+    padding : 1%;
+    background : #0D1D58;
+    color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 10px;
+    position: top;
+    top : 0;
+}
+
+a{
+    text-decoration: none;
+    color : white;
+    padding : 20px;
+}
