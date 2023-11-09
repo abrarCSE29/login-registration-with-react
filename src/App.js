@@ -1,9 +1,11 @@
-import './App.css';
-import Footer from './COMPONENTS/Footer';
+import "./App.css";
+import LoginPage from "./COMPONENTS/LoginPage";
 
 function App() {
   return (
-    <Footer/>
+    <>
+     <LoginPage/>
+    </>
   );
 }
 
