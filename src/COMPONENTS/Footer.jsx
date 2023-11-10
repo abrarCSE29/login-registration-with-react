@@ -1,5 +1,4 @@
 import React from "react";
-
 export default function Footer() {
   return (
     <div className="footer fontstyle-bold padding-5">

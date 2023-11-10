@@ -5,8 +5,8 @@ export default function TopNavBar() {
     <div className="top-nav-bar fontstyle-bold">
         <nav>
             <a href="https:/www.juniv.edu">JUNIV Website</a>
-            <a href="#">What's OBE?</a>
-            <a href="#">Contact ADMIN</a>
+            <a href="https:/www.obe.com">What's OBE?</a>
+            <a href="https:/www.facebook.com">Contact ADMIN</a>
         </nav>
     </div>
   );
