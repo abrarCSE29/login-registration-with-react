@@ -43,3 +43,23 @@ a{
     color : white;
     padding : 20px;
 }
+
+
+.pageTitle{
+    padding: 1%;
+}
+
+.fontsize-2rem
+{
+    font-size: 2rem;
+}
+
+.fontsize-1-5rem
+{
+    font-size: 1.5rem;
+}
+
+.color-blue
+{
+    color : #020CFE;
+}
