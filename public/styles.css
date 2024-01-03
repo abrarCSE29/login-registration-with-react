@@ -24,6 +24,7 @@
 .padding-5
 {
     padding: 1% 8% 1% 8%;
+    margin-top: 10px;
 }
 
 .top-nav-bar
@@ -47,8 +48,13 @@ a{
 
 .pageTitle{
     padding: 1%;
+    width: 110vh;
 }
 
+.fontsize-3rem
+{
+    font-size: 3rem;
+}
 .fontsize-2rem
 {
     font-size: 2rem;
@@ -62,4 +68,49 @@ a{
 .color-blue
 {
     color : #020CFE;
+}
+
+.img-logo
+{
+   height: 21Svh;
+   padding: 20px;
+}
+
+.inlineflex
+{
+    display: flex;
+}
+
+
+.paddingleft5
+{
+    padding-left: 5%;
+}
+
+.loginpanel
+{
+    border: 1px solid black;
+    width: 120%;
+}
+
+.login-form
+{
+    width: 300px;
+    height: 300px;
+    margin : 2%;
+    padding: 10%;
+    border-radius: 20px !important;
+}
+
+.flex-center
+{
+    justify-content: center;
+}
+.flex-spaceevenly
+{
+    justify-content: space-evenly;
+}
+.flex-alignCenter
+{
+    align-items: center;
 }
