@@ -10,22 +10,26 @@ export default function LoginForm() {
             elevation={10}
             square={false}>
             <Typography
-                variant='h5'
+                variant='h4'
                 gutterBottom
                 fontWeight={900}
                 textAlign={'center'}
+                className='Poppins'
             >Log In</Typography>
-            <Typography
-                fontFamily={'Sans-serif'}
-            >Email</Typography>
-            <TextField id="outlined-basic" label="Outlined" variant="outlined"
-            size='small' />
-            <Typography
-                fontFamily={'Sans-serif'}
-            >Password</Typography>
-            <TextField id="outlined-basic" label="Outlined" variant="outlined"
-            size='small' />
-            <Button variant="contained">Log In</Button>
+
+            <div className='textfield-login'>
+              <TextField id="outlined-basic" label="Email" variant="outlined"
+              size='small' />
+              <TextField id="outlined-basic" label="Password" variant="outlined"
+              size='small' />
+            </div>
+            <div className='btn-login'>
+              <Button 
+              className='style'
+              variant="contained"
+              >Log In</Button>
+            </div>
+            
         </Paper>
     </div>
   )
