@@ -15,7 +15,7 @@ export default function LoginForm() {
                 fontWeight={900}
                 textAlign={'center'}
                 className='Poppins'
-            >Log In</Typography>
+            >LOG IN</Typography>
 
             <div className='textfield-login'>
               <TextField id="outlined-basic" label="Email" variant="outlined"
