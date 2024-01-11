@@ -18,10 +18,8 @@ export default function LoginForm() {
             >LOG IN</Typography>
 
             <div className='textfield-login'>
-              <TextField id="outlined-basic" label="Email" variant="outlined"
-              size='small' />
-              <TextField id="outlined-basic" label="Password" variant="outlined"
-              size='small' />
+              <TextField id="outlined-basic" label="Email" variant="outlined" className='textfield-login1' />
+              <TextField id="outlined-basic" label="Password" variant="outlined" type='password'/>
             </div>
             <div className='btn-login'>
               <Button 
